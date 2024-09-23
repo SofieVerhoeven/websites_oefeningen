@@ -1,0 +1,35 @@
+p {
+    padding: 15px;
+    margin: auto;
+    font-size:large;
+}
+
+h1 {
+    color:#fa6432;
+    margin: 0%;
+    padding: 0%;
+}
+
+.styled-hr {
+    background-color: #002830;
+    size: 1px;
+}
+
+.image{
+    width: 200px;
+
+}
+
+div {
+    width: 200px;
+    
+    background-color: #002830;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a:hover {
+    color: #fa6432;
+}
+

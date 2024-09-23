@@ -1,0 +1,33 @@
+body {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002830;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color: #fa6432;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.5em;
+    color:#002830;
+}
+
+.Logo {
+    width: 200px;
+    margin: 20px;
+}
+
+a:link {
+    color: #002830;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#fa6432;
+}
