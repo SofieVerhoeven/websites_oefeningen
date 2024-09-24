@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 2em;
+    color: #fa6432;
+    margin: 0;
+    padding: 0;
+}
+
+.styled-hr {
+    background-color: #002830;
+    width: 1px;
+}
+
+img {
+    opacity: 0.5;
+    border-radius: 5%;
+    margin: 15px;
+    float: left;
+}
+
+.image-hover {
+    transition: box-shadow 0.3s ease-in;
+}
+
+.image-hover:hover {
+    box-shadow:#fa6432;
+    opacity: 1;
+}

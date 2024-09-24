@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #002830;
+}
+
+.image{
+    width: 400px;
+}
+
+li {
+    margin: 0;
+    padding: 3px;
+}
+
+.container {
+    padding: 20px;
+    width: 400px;
+}
+
+ul {
+    background-color:#002830;
+    color:white;
+}
+
+ol {
+    background-color: #fa6432;
+    color:white;
+}
