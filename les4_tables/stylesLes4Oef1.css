@@ -1,0 +1,26 @@
+th, td {
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 1px;
+    text-align: center;
+}
+
+#entiteit {
+    background-color: #002830;
+    color:white;
+    border: 1px solid grey;
+}
+
+hr.divider {
+    border: 1px solid #002830;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 15px;
+}

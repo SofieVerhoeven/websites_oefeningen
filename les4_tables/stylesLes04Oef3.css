@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+  }
+  
+th, td {
+    border: 1px solid #000;
+    height: 50px;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+.Ja {
+    background-color: green;
+}
+
+.Nee {
+    background-color: red;
+}
+
+.Kolom2 {
+    width: 200px;
+}
+
+.Kolom4 {
+    width: 100px;
+}
