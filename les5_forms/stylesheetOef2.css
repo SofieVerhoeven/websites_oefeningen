@@ -1,0 +1,15 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    width: 50%;
+}
+
+input{
+    box-shadow: 5px 5px lightgray;
+    border-radius: 15px;
+    margin-top: 0em;
+    font-size: large;
+    display: block;
+}

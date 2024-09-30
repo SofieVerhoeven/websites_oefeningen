@@ -1,0 +1,17 @@
+body  {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    width: 20%;
+}
+
+input {
+    box-shadow: 5px 5px lightgray;
+    font-size: large;    
+    background-color: #ff6434;
+}
+
+select{
+    background-color: #ff6434;
+}
