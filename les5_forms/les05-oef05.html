@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 05-Oef 05</title>
+    <link rel="stylesheet" href="stylesheetOef5.css">
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <label for="Voornaam">Voornaam: 
+            <input placeholder="Voornaam" type="text" name="Voornaam" id="Voornaam" required>
+        </label>
+
+        <label for="Familienaam">Familienaam:
+            <input placeholder="Familienaam" type="text" name="Familienaam" id="Familienaam" required>
+        </label>
+        
+        <label for="Adres">Adres:             
+            <input placeholder="Adres" type="text" name="Adres" id="Adres" required>
+        </label>
+
+        <label for="Provincie">Provincie:
+            <select name="keuzelijst" id="keuzelijst" required>
+                <option value="Limburg" selected>Limburg</option>
+                <option value="Antwerpen">Antwerpen</option>
+                <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                <option value="West-Vlaanderen">West-Vlaanderen</option>
+                <option value="Henegouwen">Henegouwen</option>
+                <option value="Luik">Luik</option>
+                <option value="Luxemburg">Luxemburg</option>
+                <option value="Namen">Namen</option>
+                <option value="Waals-Brabant">Waals-Brabant</option>
+            </select>
+        </label>
+        
+        <fieldset>
+            <legend>Geslacht</legend>
+            <label for="Man">Man</label>
+            <input type="radio" id="Man" name="Geslacht" value="Man" required>
+
+            <label for="Vrouw">Vrouw</label>
+            <input type="radio" id="Vrouw" name="Geslacht" value="Vrouw" required>
+
+            <label for="Ander">Ander</label>
+            <input type="radio" id="Ander" name="Geslacht" value="Ander" required>
+        </fieldset>
+
+        <label for="bestand">Foto:</label>
+        <input type="file" id="bestand" name="bestand" required>
+
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+</html>
