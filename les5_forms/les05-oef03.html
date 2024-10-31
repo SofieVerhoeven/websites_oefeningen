@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/les05-oef03.css">
     <title>Les 05 - Oef 03</title>
-    <link rel="stylesheet" href="stylesheetoef3.css">
 </head>
+
 <body>
     <form method="post" action="https://tm-statweb.be/forms.php">
-        <label for="Geslacht">Geslacht
-            <fieldset>
-                Man<input type="radio" id="Man" name="Geslacht" value="Man">
-                Vrouw<input type="radio" id="Vrouw" name="Geslacht" value="Vrouw">
-                Ander<input type="radio" id="Ander" name="Geslacht" value="Ander">
-            </fieldset>
-        </label>
-        <label for="Kleur ogen">Kleur ogen
-            <fieldset>
-                Bruin<input type="radio" id="Bruin" name="Kleur" value="Bruin">
-                Groen<input type="radio" id="Groen" name="Kleur" value="Groen">
-                Blauw<input type="radio" id="Blauw" name="Kleur" value="Blauw">
-                Grijs<input type="radio" id="Grijs" name="Kleur" value="Grijs">
-            </fieldset>
-        </label>
-        <label for="submit">
+        <fieldset>
+            <legend>Geslacht</legend>
+            <label for="man">Man
+                <input type="radio" id="man" name="geslacht" value="man">
+            </label>
+            <label for="vrouw">Vrouw
+                <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            </label>
+            <label for="ander">Ander
+                <input type="radio" id="ander" name="geslacht" value="ander">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kleur ogen</legend>
+            <label for="bruin">Bruin
+                <input type="radio" id="bruin" name="ogen" value="bruin">
+            </label>
+            <label for="groen">Groen
+                <input type="radio" id="groen" name="ogen" value="groen">
+            </label>
+            <label for="blauw">Blauw
+                <input type="radio" id="blauw" name="ogen" value="blauw">
+            </label>
+            <label for="grijs">Grijs
+                <input type="radio" id="grijs" name="ogen" value="grijs">
+            </label>
+        </fieldset>
+
+        <div>
             <input type="submit" value="Registreren">
-        </label>
+        </div>
     </form>
 </body>
+
 </html>
